@@ -13,6 +13,7 @@ class Test extends Controller{
 
     public function j()
     {
-        echo "x";
+        $data = ['loading'=>'data.'];
+        return $this->ajaxReturn($data);
     }
 }
