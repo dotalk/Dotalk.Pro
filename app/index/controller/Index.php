@@ -44,4 +44,9 @@ class Index extends Controller
 
     }
 
+    public function local()
+    {
+        return view('', [ 'title' => '后台首页']);
+    }
+
 }
