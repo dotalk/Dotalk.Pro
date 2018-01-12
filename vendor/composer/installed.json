@@ -540,5 +540,44 @@
             "configuration",
             "options"
         ]
+    },
+    {
+        "name": "topthink/think-swoole",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/think-swoole.git",
+            "reference": "fb188e1fcb7e08906470db3b110af10ea7d28356"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/top-think/think-swoole/fb188e1fcb7e08906470db3b110af10ea7d28356.zip",
+            "reference": "fb188e1fcb7e08906470db3b110af10ea7d28356",
+            "shasum": ""
+        },
+        "require": {
+            "ext-swoole": ">=1.8"
+        },
+        "time": "2016-10-05T03:28:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\swoole\\": "src"
+            },
+            "files": []
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu21st",
+                "email": "liu21st@gmail.com"
+            }
+        ],
+        "description": "Swoole extend for thinkphp5"
     }
 ]

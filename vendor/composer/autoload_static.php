@@ -16,6 +16,7 @@ class ComposerStaticInite852dc75b22dac3e2b90bb7b0bb60e3a
     public static $prefixLengthsPsr4 = array (
         't' => 
         array (
+            'think\\swoole\\' => 13,
             'think\\mongo\\' => 12,
             'think\\helper\\' => 13,
             'think\\composer\\' => 15,
@@ -45,6 +46,10 @@ class ComposerStaticInite852dc75b22dac3e2b90bb7b0bb60e3a
     );
 
     public static $prefixDirsPsr4 = array (
+        'think\\swoole\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/topthink/think-swoole/src',
+        ),
         'think\\mongo\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/think-mongo/src',
