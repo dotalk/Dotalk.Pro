@@ -27,34 +27,15 @@
 </body>
 <script type="text/javascript" charset="utf-8" >
 
-
-    if(!window.localStorage){
-        alert("浏览器支持localstorage");
-    }else{
-        var storage=window.localStorage;
-        var c=storage.getItem("cid");
-        console.log(c);
-        alert(c);
-    }
-
+    alert(plus.push.getClientInfo().clientid);
     function alertCid() {
         var storage=window.localStorage;
         var c=storage.getItem("cid");
         alert(plus.push.getClientInfo().clientid);
-        console.log(c);
-        alert(c);
-        alert(getCookie('cid'));
     }
 
 
 
-    function getCookie(name)
-    {
-        var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
-        if(arr=document.cookie.match(reg))
-            return unescape(arr[2]);
-        else
-            return null;
-    }
+
 </script>
 </html>
