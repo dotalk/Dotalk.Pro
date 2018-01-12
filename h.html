@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<button onclick="alertCid()">Copy Text</button>
+</body>
+<script type="text/javascript" charset="utf-8" >
+    if(!window.localStorage){
+        alert("浏览器支持localstorage");
+    }else{
+        var storage=window.localStorage;
+        var c=storage.getItem("cid");
+        console.log(c);
+        alert(c);
+    }
+
+    function alertCid() {
+        var storage=window.localStorage;
+        var c=storage.getItem("cid");
+        console.log(c);
+        alert(c);
+    }
+</script>
+</html>
