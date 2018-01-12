@@ -2,9 +2,28 @@
 <html>
 <head>
     <title></title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: #EAEAEA;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: #1E90FF;
+        }
+        .center-in-center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
 </head>
 <body>
-<button onclick="alertCid()">Copy Text</button>
+
+<div class="center-in-center"><button onclick="alertCid()">Copy Text</button></div>
+
 </body>
 <script type="text/javascript" charset="utf-8" >
     if(!window.localStorage){
