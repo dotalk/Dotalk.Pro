@@ -12,7 +12,6 @@ use think\View;
  * 访问权限管理
  * Class AccessAuth
  * @package hook
- * @author Anyon <zoujingli@qq.com>
  * @date 2017/05/12 11:59
  */
 class AccessAuth
