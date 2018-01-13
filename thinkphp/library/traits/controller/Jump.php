@@ -164,19 +164,4 @@ trait Jump
             ? Config::get('default_ajax_return')
             : Config::get('default_return_type');
     }
-
-    /**
-     * @param array $data
-     * @param string $message
-     * @param int $code
-     * @return
-     */
-    protected function ajaxReturn($data = [], $message = "", $code = 1) {
-        $data = [
-            'code' => $code,
-            'msg'  => $message,
-            'data' => $data
-        ];
-        return Response::create($data, 'json');
-    }
 }

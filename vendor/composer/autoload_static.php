@@ -68,8 +68,8 @@ class ComposerStaticInite852dc75b22dac3e2b90bb7b0bb60e3a
         ),
         'think\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/thinkphp/library/think',
-            1 => __DIR__ . '/..' . '/topthink/think-queue/src',
+            0 => __DIR__ . '/..' . '/topthink/think-queue/src',
+            1 => __DIR__ . '/../..' . '/thinkphp/library/think',
         ),
         'Wechat\\' => 
         array (
