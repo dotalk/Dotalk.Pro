@@ -101,7 +101,7 @@ table td .text-explode{color:#ccc!important;font-weight:normal!important;margin:
 .framework-container{width:auto;position:fixed;top:50px;left:0;bottom:0;right:0;background:#fff;overflow:auto}
 
 /** 顶部菜单 */
-.console-topbar{position:relative;z-index:100;clear:both;height:50px;background:#2494f2;font-size:12px;min-width:990px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.console-topbar{position:relative;z-index:100;clear:both;height:50px;background:#394555;font-size:12px;min-width:990px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 .console-topbar a{text-decoration:none}.console-topbar a:focus{outline:none}
 .console-topbar .icon-arrow-down{display:inline-block;width:18px;text-align:center;vertical-align:middle}
 .console-topbar .dropdown .dropdown-menu{z-index:1;font-size:12px;border-radius:0;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 3px rgba(0,0,0,0.1);box-shadow:0 1px 3px rgba(0,0,0,0.1)}
