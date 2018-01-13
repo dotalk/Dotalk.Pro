@@ -9,7 +9,6 @@ use think\Request;
  * 基础数据服务
  * Class DataService
  * @package service
- * @author Anyon <zoujingli@qq.com>
  * @date 2017/03/22 15:32
  */
 class DataService

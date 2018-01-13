@@ -12,7 +12,6 @@ use Wechat\WechatReceive;
  * 微信接口控制器
  * Class Api
  * @package app\wechat\controller
- * @author Anyon <zoujingli@qq.com>
  */
 class Api extends Controller
 {

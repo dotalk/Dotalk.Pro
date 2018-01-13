@@ -11,7 +11,6 @@ use think\Db;
  * 支付数据服务
  * Class PayService
  * @package service
- * @author Anyon <zoujingli@qq.com>
  * @date 2016/10/25 14:49
  */
 class PayService

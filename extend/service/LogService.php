@@ -9,7 +9,6 @@ use think\Request;
  * 操作日志服务
  * Class LogService
  * @package service
- * @author Anyon <zoujingli@qq.com>
  * @date 2017/03/24 13:25
  */
 class LogService

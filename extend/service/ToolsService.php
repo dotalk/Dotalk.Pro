@@ -8,7 +8,6 @@ use think\Request;
  * 系统工具服务
  * Class ToolsService
  * @package service
- * @author Anyon <zoujingli@qq.com>
  * @date 2016/10/25 14:49
  */
 class ToolsService

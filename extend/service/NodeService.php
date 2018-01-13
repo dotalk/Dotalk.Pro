@@ -8,7 +8,6 @@ use think\Db;
  * 系统权限节点读取器
  * Class NodeService
  * @package extend
- * @author Anyon <zoujingli@qq.com>
  * @date 2017/05/08 11:28
  */
 class NodeService

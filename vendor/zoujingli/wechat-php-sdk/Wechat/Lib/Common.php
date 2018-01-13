@@ -98,7 +98,7 @@ class Common
 
 
     /**
-     * 接口验证
+     * 微信接口验证
      * @return bool
      */
     public function valid()
