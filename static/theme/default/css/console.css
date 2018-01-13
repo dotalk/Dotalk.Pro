@@ -96,7 +96,7 @@ table td .text-explode{color:#ccc!important;font-weight:normal!important;margin:
 .pace .pace-progress{background:#22df80;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}
 
 /** 后台框架 */
-.framework-topbar{position:fixed;width:100%;height:50px;background:#09c;z-index:101}
+.framework-topbar{position:fixed;width:100%;height:50px;background:#5FB878;z-index:101}
 .framework-body{position:absolute;width:100%;top:50px;bottom:0px;background-color:#000;z-index:100}
 .framework-container{width:auto;position:fixed;top:50px;left:0;bottom:0;right:0;background:#fff;overflow:auto}
 
@@ -116,7 +116,7 @@ table td .text-explode{color:#ccc!important;font-weight:normal!important;margin:
 .console-topbar .topbar-logo span{line-height:50px;padding:auto 20px}
 .console-topbar .topbar-home-link{padding:0 20px;margin-right:1px;background:none}
 .console-topbar .topbar-btn{color:#fff;font-size:14px;line-height:50px}
-.console-topbar .topbar-btn.active{background:#36a3ff}
+.console-topbar .topbar-btn.active{background:#009688}
 .console-topbar .topbar-info .topbar-btn{padding:0 15px;height:50px;display:block;z-index:2;}
 .console-topbar .topbar-info .topbar-btn:hover,
 .console-topbar .topbar-info .topbar-btn.topbar-btn-dark{background:#36a3ff}
@@ -150,7 +150,7 @@ table td .text-explode{color:#ccc!important;font-weight:normal!important;margin:
 .framework-sidebar .sidebar-nav.open .sidebar-title-icon{transform:rotate(90deg);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg)}
 .framework-sidebar .sidebar-nav .nav-icon{width:50px;text-align:center;font-size:16px;float:left;color:#aeb9c2}
 .framework-sidebar .sidebar-nav .nav-title{float:left;overflow:hidden;color:#fff;white-space:nowrap;text-overflow:ellipsis;display:block;width:130px}
-.framework-sidebar .sidebar-nav li.active a{background:#2494f2}
+.framework-sidebar .sidebar-nav li.active a{background:#009688}
 .framework-sidebar .sidebar-nav li.active a .nav-title{color:#fff}
 .framework-sidebar .sidebar-nav li.active a .nav-icon{color:#fff}
 .framework-sidebar .sidebar-nav .manage-nav{height:30px;overflow:hidden}
