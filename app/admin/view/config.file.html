@@ -90,21 +90,21 @@
     <div class="form-group" data-storage-type="qiniu">
         <label class="col-sm-2 control-label">Protocol <span class="nowrap">(访问协议)</span></label>
         <div class='col-sm-8'>
-            <!--{if sysconf('storage_qiniu_is_https')!=='1'}-->
+            {if sysconf('storage_qiniu_is_https')!=='1'}
             <label class="think-radio">
                 <input checked type="radio" name="storage_qiniu_is_https" value="0" lay-ignore> http
             </label>
             <label class="think-radio">
                 <input type="radio" name="storage_qiniu_is_https" value="1" lay-ignore> https
             </label>
-            <!--{else}-->
+            {else}
             <label class="think-radio">
                 <input type="radio" name="storage_qiniu_is_https" value="0" lay-ignore> http
             </label>
             <label class="think-radio">
                 <input checked type="radio" name="storage_qiniu_is_https" value="1" lay-ignore> https
             </label>
-            <!--{/if}-->
+            {/if}
             <p class="help-block">七牛云资源访问协议（http 或 https），https 需要配置证书才能使用</p>
         </div>
     </div>
